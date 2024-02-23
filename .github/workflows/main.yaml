@@ -32,6 +32,6 @@ jobs:
 
       - name: Build and push the image
         run: |
-          docker login --username jts11 --password ${{secrets.ACCESS_TOKEN}} ghcr.io
-          docker build -t ghcr.io/jts11/primes-service:latest --file Dockerfile .  
-          docker push ghcr.io/jts11/primes-service:latest
+          docker login --username jts2052 --password ${{secrets.ACCESS_TOKEN}} ghcr.io
+          docker build -t ghcr.io/jts2052/primes-service:latest --file Dockerfile .  
+          docker push ghcr.io/jts2052/primes-service:latest
